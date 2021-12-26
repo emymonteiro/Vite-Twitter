@@ -5,5 +5,10 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/Vite-Twitter/',
   plugins: [vue()],
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.esm-bundler.js',
+    },
+  },
   
 })

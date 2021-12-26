@@ -1,5 +1,17 @@
-<script setup lang="ts">
-  import Main from './components/Main.vue'
+<script lang="ts">
+import Main from './components/Main.vue'
+
+export default {
+  name: 'App',
+
+  components: {
+    Main,
+  },
+
+  data: () => ({
+    //
+  }),
+}
 </script>
 
 <template>
